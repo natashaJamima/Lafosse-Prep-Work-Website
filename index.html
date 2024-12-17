@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="Natasha Biopage"
+      content="Natasha's favourite movies and music for you to get to know her better. You can also get in contact by clicking on her LinkedIn profile and get acquainted."
+    />
+    <link rel="icon" type="image/x-icon" href="Images/logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Slackey&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Knewave&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Src/styles.css" />
+    <title>Natasha Jamima</title>
+  </head>
+  <body>
+    <div class="body-container">
+      <div class="navbar">
+        <img src="images/logo.png" alt="Logo" width="60" class="nav logo" />
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#movies">Movies</a>
+        <a href="#music">Music</a>
+      </div>
+      <header id="home">
+        <div class="intro">
+          <h2 class="heading intro">Hi There, It's Me...</h2>
+          <h1 class="heading my-name">Natasha Jamima</h1>
+        </div>
+        <div class="pictures">
+          <img
+            class="each-photo"
+            src="Images/IMG_5B1E3C590B01-1.jpeg"
+            alt="Photo of Natasha in Milan"
+            width="100px"
+          />
+          <img
+            class="each-photo"
+            src="Images/IMG_6282.jpg"
+            alt="Random photo of Natasha"
+            width="100px"
+          />
+          <img
+            class="each-photo"
+            src="Images/IMG_051150C37DE8-1.jpeg"
+            alt="Photo of Natasha in Kampala"
+            width="100px"
+          />
+        </div>
+      </header>
+      <div class="about" id="about">
+        <h3>About Me</h3>
+        <p>
+          As I write this I am 25 years young and currently rocking a short bob.
+          I'm best known for my random outbreaks into song and getting these
+          songs stuck in your head, even if you don't know them. I love watching
+          new movies, so currently December is ruining the vibe because the
+          cringy Christmas rom-coms are not for me - unless I'm with the girls,
+          of course. Aside from my visual entertainment, music is my go to for
+          every mood and situation.
+        </p>
+      </div>
+      <div class="movieTable" id="movies">
+        <h3>Movie Recomendations</h3>
+        <!-- Add a table to list pros and cons of favourite movies-->
+        <div class="table of movies">
+          <table>
+            <tr>
+              <th>Movie</th>
+              <th>Genre</th>
+              <th>Pros</th>
+              <th>Cons</th>
+            </tr>
+            <tr>
+              <td>The Hunt</td>
+              <td>Thriller</td>
+              <td>First scary movie that made perfect sense to me</td>
+              <td>Triggered my Irrational yet rational fear.</td>
+            </tr>
+            <tr>
+              <td>Brother Bear</td>
+              <td>Family</td>
+              <td>A wholesome watch, makes me feel like a kid again</td>
+              <td>No adult should ever need to cry that much.</td>
+            </tr>
+            <tr>
+              <td>The Call</td>
+              <td>Thriller</td>
+              <td>Halle Berry - she's the pro</td>
+              <td>They've never bought out a 2nd movie!</td>
+            </tr>
+            <tr>
+              <td>Carry-On</td>
+              <td>Thriller</td>
+              <td>MY kind of Christmas movie. No ones in love, just drama</td>
+              <td>Could've been a tad more suspenseful, but no complaints.</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="music" id="music">
+        <h3>My Music Taste</h3>
+        <div>
+          <p>
+            Check out my Top 5 favourite songs this year (verified by Spotify).
+          </p>
+          <ol reversed>
+            <li>Tonight ft. Libianca - NSG</li>
+            <li>Someday - Elmiene</li>
+            <li>Not An Angel - Tems</li>
+            <li>Bedroom Weather - Odeal</li>
+            <li>Favourite Girl ft. Rema - Darkoo</li>
+          </ol>
+        </div>
+
+        <p>
+          Strangely enough, not all of my favourite artists are on this list. So
+          let me tell you who those are, in
+          <span class="bolder">NO PARTICULAR ORDER!</span>
+        </p>
+        <ul>
+          <li>Kehlani</li>
+          <li>Summer Walker</li>
+          <li>Odeal</li>
+          <li>Sza</li>
+          <li>Jazmine Sullivan</li>
+        </ul>
+        <p>
+          I'm pretty bad with starting conversation, so I have made music my go
+          to. Soooo.....
+        </p>
+        <div class="form-container">
+          <h3 class="musicForm">Music Listening Record</h3>
+          <form id="musicForm">
+            <label for="name">Your Name:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="e.g. Jane"
+              required
+            />
+
+            <label for="song">Last Song You Listened To:</label>
+            <input
+              type="text"
+              id="song"
+              name="song"
+              placeholder="e.g. ABC - Jackson 5"
+              required
+            />
+
+            <button type="submit">Submit</button>
+          </form>
+          <div class="statement" id="responseMessage"></div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      Coded by
+      <a
+        class="tag"
+        href="https://www.linkedin.com/in/mnatasha99/"
+        target="_blank"
+        >Natasha Jamima</a
+      >
+      ™
+    </footer>
+    <script src="Src/script.js"></script>
+  </body>
+</html>
