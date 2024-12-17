@@ -88,6 +88,13 @@ p {
   text-align: justify;
 }
 
+ul,
+ol {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
 li {
   font-family: "Oxanium", sans-serif;
   font-size: 20px;
